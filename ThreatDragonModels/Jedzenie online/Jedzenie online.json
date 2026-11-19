@@ -766,7 +766,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Api",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -780,7 +780,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Api"
             ],
             "id": "8191d67d-55d3-4ffe-ac75-f6687c9d8218",
             "source": {
@@ -803,6 +803,58 @@
               {
                 "x": 350,
                 "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Odpowiedz",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Odpowiedz"
+            ],
+            "id": "aa5d52b3-5dbb-46e8-a5df-31337938f2d9",
+            "source": {
+              "cell": "6b0c097c-42eb-45e5-8874-d1fc80731bbc",
+              "port": "32b04397-c0ce-4986-ae0e-d30b1c81af5b"
+            },
+            "target": {
+              "cell": "5ef5bf6e-a3e3-46a7-9d1d-d4adb3548461",
+              "port": "32b04397-c0ce-4986-ae0e-d30b1c81af5b"
+            },
+            "vertices": [
+              {
+                "x": 335,
+                "y": 200
               }
             ]
           },
@@ -1338,12 +1390,24 @@
             },
             "vertices": [
               {
+                "x": 580,
+                "y": 370
+              },
+              {
                 "x": 610,
                 "y": 400
               },
               {
+                "x": 640,
+                "y": 420
+              },
+              {
                 "x": 670,
                 "y": 452
+              },
+              {
+                "x": 700,
+                "y": 420
               }
             ]
           }
